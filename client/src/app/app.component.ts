@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import {HttpClient} from '@angular/common/http'
+import { Product } from './shared/Models/porduct';
+import { Pagination } from './shared/Models/pagination';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'client';
+
+  constructor(){}
+
 }
